@@ -1,0 +1,181 @@
+.navbar-bg{
+    background-image: url(./img/navbar-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    min-height: 690px;
+}
+
+.navbar-links a{
+    list-style: none;
+    text-decoration: none;
+    color: #081F32;
+}
+
+.navbar-bt{
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    background: #1B75BB;
+    border: none;
+    color: white;
+}
+
+.navbar-links a:hover{
+    color: #1B75BB;
+}
+
+/* header */
+.header-teg{
+    margin-top: 100px;
+}
+
+.header-teg{
+    background-image: url(./img/hedaer-teg-img.png);
+    max-width: 900px;
+    min-height: 110px;
+    background-repeat: no-repeat;
+}
+
+.line{
+    width: 1px;
+    height: 34px;
+    opacity: 0.4;
+    background: #9DACB8;
+}
+/* header end */
+
+/* title-img */
+.title-video{
+    margin-top: 167px;
+}
+
+.title-img .img1{
+    margin-left: 205px; 
+    max-width: 484px;
+}
+
+.title-img, .img-2{
+    max-width: 630px;
+}
+
+.title-text{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+/* title-img end */
+
+/* choose */
+.choose-text{
+    margin-top: 255px;
+}
+/* choose end */
+
+/* gallery */
+.gallery{
+    margin-top: 187px;
+}
+
+.gallery-box1{
+    background-image: url(./img/gallery-img1.png);
+    background-repeat: no-repeat;
+    min-height: 337px;
+}
+
+.gallery-box2{
+    width: 231px;
+    height: 126px;
+    border-radius: 10px;
+    background: rgba(226, 226, 226, 0.40);
+    backdrop-filter: blur(5px);
+}
+
+.gallery-box3{
+    background-image: url(./img/gallery-bg2.png);
+    background-repeat: no-repeat;
+    min-height: 337px;
+}
+
+.gallery-box4{
+    background-image: url(./img/gallery-bg3.png);
+    background-repeat: no-repeat;
+    min-height: 337px;
+}
+
+.gallery-box5{
+    background-image: url(./img/gallery-bg4.png);
+    background-repeat: no-repeat;
+    min-height: 337px;
+}
+
+.gallery-box6{
+    background-image: url(./img/gallery-bg5.png);
+    background-repeat: no-repeat;
+    min-height: 337px;
+}
+/* gallery end */
+
+/* people */
+.people{
+    margin-top: 150px;
+}
+
+.people-imgs{
+    margin-top: 100px;
+}
+/* people end */
+
+/* sayt */
+.sayt-text{
+    margin-top: 140px;
+}
+
+.sayt-sumbit{
+    width: 500px;
+    height: 55px;
+}
+/* sayt end */
+
+
+
+
+
+
+
+@media (max-width:992px){
+    .header-teg{
+        display: none;
+    }
+}
+
+@media (max-width:1400px){
+    .title-img{
+        display: none;
+    }
+}
+
+@media (max-width:1400px){
+    .title-text{
+        text-align: center;
+        margin-left: -10px;
+    }
+}
+
+@media (max-width:768px){
+    .gallery-text{
+        display: none;
+    }
+}
+
+@media (max-width:992px){
+    .people-2{
+        display: none;
+    }
+}
+
+@media (max-width:768px){
+    .sayt-input{
+        display: none;
+    }
+}
